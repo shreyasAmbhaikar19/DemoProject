@@ -1,0 +1,152 @@
+{
+  "customers": [
+    {
+      "_customerName": "",
+      "_password": "",
+      "_date_of_birth": "",
+      "_address": "",
+      "_gender": "",
+      "id": 1
+    },
+    {
+      "_customerName": "Mohit Pawar",
+      "_password": "",
+      "_date_of_birth": "",
+      "_address": "sdad",
+      "_gender": "",
+      "id": 2
+    },
+    {
+      "_customerName": "Mohit Pawar",
+      "_password": "",
+      "_date_of_birth": "",
+      "_address": "sdad",
+      "_gender": "",
+      "id": 3
+    },
+    {
+      "_customerName": "Mohit Pawar",
+      "_password": "56456",
+      "_date_of_birth": "",
+      "_address": "sdad",
+      "_gender": "",
+      "id": 4
+    },
+    {
+      "_customerName": "",
+      "_password": "",
+      "_date_of_birth": "",
+      "_address": "",
+      "_gender": "",
+      "id": 5
+    },
+    {
+      "_customerName": "Mohit Pawar",
+      "_password": "",
+      "_date_of_birth": "",
+      "_address": "sdad",
+      "_gender": "",
+      "id": 6
+    },
+    {
+      "_customerName": "",
+      "_password": "",
+      "_date_of_birth": "",
+      "_address": "",
+      "_gender": "",
+      "id": 7
+    },
+    {
+      "_customerName": "Mohit Pawar",
+      "_password": "45354",
+      "_email": "kamleshdh@cybage.com",
+      "_date_of_birth": "2023-12-20",
+      "_address": "sdad",
+      "_gender": "Male",
+      "id": 8
+    },
+    {
+      "_customerName": "skaddy",
+      "_password": "123456",
+      "_email": "abc@xyz",
+      "_date_of_birth": "2023-12-19",
+      "_address": "asdfghjklqwertyuiop",
+      "_gender": "Male",
+      "id": 9
+    },
+    {
+      "_customerName": "saad khanp",
+      "_password": "",
+      "_email": "asadd@gmail.com",
+      "_date_of_birth": "2023-12-05",
+      "_address": "qwertyuiop",
+      "_gender": "Male",
+      "id": 10
+    },
+    {
+      "_customerName": "saad khanp",
+      "_password": "asdafadggrsgdt",
+      "_email": "asadd@gmail.com",
+      "_date_of_birth": "2023-12-19",
+      "_address": "qwertyuiop",
+      "_gender": "Male",
+      "id": 11
+    },
+    {
+      "_customerName": "",
+      "_password": "",
+      "_email": "",
+      "_date_of_birth": "",
+      "_address": "",
+      "_gender": "",
+      "id": 12
+    }
+  ],
+  "products": [
+    {
+      "_productName": "Apache RTR 160 4v",
+      "_brandName": "TVS",
+      "_price": "160000",
+      "_productDescription": "fgdhbrhrtfh",
+      "_productImage": "",
+      "id": 1
+    },
+    {
+      "_productName": "rthsrhrsfhrsfth",
+      "_brandName": "srfthrsfhrstfh",
+      "_price": "5674567567",
+      "_productDescription": "ghfghbfhb",
+      "_avilability": "In Stock",
+      "_productImage": "C:\\fakepath\\2.jpg",
+      "id": 2
+    },
+    {
+      "_productName": "dfgdgdrgg",
+      "_brandName": "dgedgertgertg",
+      "_price": "34534534534",
+      "_productDescription": "dfzgegegeg",
+      "_avilability": "In Stock",
+      "_productImage": "C:\\fakepath\\3.jpg",
+      "id": 3
+    },
+    {
+      "_productName": "fdgbdfbcxvbtghdrgter",
+      "_brandName": "drtgtghtrght",
+      "_price": "654645645",
+      "_productDescription": "fghbfdghbdfght",
+      "_avilability": "In Stock",
+      "_productImage": "C:\\fakepath\\4.jpg",
+      "id": 4
+    },
+    {
+      "_productName": "honda",
+      "_brandName": "honda",
+      "_price": "450000",
+      "_productDescription": "bike",
+      "_avilability": "Out of Stock",
+      "_productImage": "C:\\fakepath\\image1.jpg",
+      "id": 5
+    }
+  ],
+  "orders": []
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script src="../javascript/plugins/all_cdn.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container" style="background-color: aquamarine;">
+        <h2>Product Details</h2>
+        <table class="add_product_form">
+            <tr>
+                <th>Product Name</th>
+                <td><input type="text" class="pname"></td></tr>
+                <tr></tr><td>Brand Name</td>
+                <td><input type="text" class="bname"></td>
+            </tr>
+            <tr>
+                <th>Price</th>
+                <td><input type="number" class="price"></td>
+            </tr>
+            <tr>
+                <th><label>Availibilty</label></th>
+                <td><label>In Stock</label><input type="radio" id="IS" class="IS" name="prod" value="In Stock">
+                    <label>Out Of Stock</label><input type="radio" id="OFS" class="OFS" name="prod" value="Out of Stock">
+                </td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td><textarea class="des" style="margin-left: 10px; width: 175px;"></textarea></td>
+            </tr>
+            <tr>
+                <td>Select File</td>
+                <td><input type="file" class="file" accept=".jpg, .png, .jpeg, .gif, .bmp, .tif"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="button" value="Add Product" id="btn2" class="btn2">
+                    <a href="add_customer.html"><input type="button" value="Register" id="btn" class="btn"></a>
+                    <a href="product_card.html"><input type="button" value="Card Product" id="btn3" class="btn3"></a></td>
+            </tr>
+    
+            <script src="../javascript/controler/add-product_controler.js" type="module"></script>
+        </table>
+        <div class="product"></div>
+    </div>
+</body>
+</html>
+
+<!-- create form and pages
+    customer--
+    customer name
+    email'
+    address
+    contact no
+    gender
+    date of birth
+
+    product--
+    name
+    brand name
+    price
+    availibilty
+    description
+    images
+ -->

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script src="../javascript/plugins/all_cdn.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Customer Details</h2>
+        <table class="add_product_form">
+            <tr>
+                <td>Customer Name</td>
+                <td><input type="text" class="cname"></td></tr>
+                <tr>
+                    <td><label>Password</label></td>
+                    <td><input type="password" id="cust_password" class="cust_password"></td>
+                </tr>
+                <tr><td>Email</td>
+                <td><input type="text" class="email"></td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td><input type="text" class="add"></td>
+            </tr>
+            <tr>
+                <td>Contact No</td>
+                <td><input type="number" class="cno"></td>
+            </tr>
+            <tr>
+                <td><label>Gender</label></td>
+                <td><label>Male</label><input type="radio" id="male" class="male" name="gender" value="Male">
+                    <label>Female</label><input type="radio" id="female" class="female" name="gender" value="Female">
+                </td>
+            </tr>
+            <tr>
+                <td>DOB</td>
+                <td><input type="date" class="dob"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="button" value="Add Customer" id="btn1" class="btn1">
+                <a href="product.html"><input type="button" value="Product Detail" id="btn" class="btn"></a>
+                <a href="customerDetails.html"><input type="button" value="View Customer" id="btn2" class="btn2"></a></td>
+            </tr>
+    
+            <script src="../javascript/controler/add_customer.js" type="module"></script>
+        </table>
+        <div class="custom"></div>
+    </div>
+</body>
+</html>
+
+<!-- create form and pages
+    customer--
+    customer name
+    email'
+    address
+    contact no
+    gender
+    date of birth
+
+    product--
+    name
+    brand name
+    price
+    availibilty
+    description
+    images
+ -->
